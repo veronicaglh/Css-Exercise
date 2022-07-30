@@ -1,0 +1,16 @@
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30px;
+}
+
+
+.Container div{
+    border: 1px #ccc solid;
+    padding-left: 300px; 
+    padding-right:300px;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
