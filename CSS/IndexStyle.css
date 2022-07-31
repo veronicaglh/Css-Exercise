@@ -261,3 +261,43 @@ a:hover{
     margin-top:50px;
 }
 
+/*********************************************************************************************/
+
+/* Section Four */ 
+
+.SectionFour_h1{
+    color: #122032; 
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 60px; 
+}
+.SectionFour_p{
+    color: #122032; 
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    bottom:60px; 
+}
+.Section4_Container{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px; 
+}
+
+.Section4_Container div {
+
+    padding: 20px;
+    border-radius: 8px;
+    position: relative; 
+    bottom: 30px; 
+}
+.Section4_Container img{
+    max-height: 150px;
+    max-width: 150px;
+}
