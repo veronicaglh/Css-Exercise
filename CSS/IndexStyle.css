@@ -204,3 +204,60 @@ a:hover{
     left: 620px;  
 }
 
+/*****************************************************************************************************************/
+
+/* Section Three */ 
+
+.SectionThree_h1{
+    color: #122032; 
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 180px; 
+}
+.SectionThree_p{
+    color: #122032; 
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    bottom:180px; 
+}
+
+.Section3_Container{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px; 
+}
+
+.Section3_Container div {
+    
+    background-color: #FDF9F1;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative; 
+    bottom: 150px; 
+    height: 290px;
+    width: 315px;
+}
+
+.QuotationMarkImage{
+    max-height: 20px;
+    max-width: 20px;
+    margin-top: 30px;
+}
+
+.Section3_Container h3 {
+    font-weight: 570;
+    font-size: 16px;
+    line-height: 24px;
+}
+.Section3_Container p{
+    font-weight: 650;
+    margin-top:50px;
+}
+
