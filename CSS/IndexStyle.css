@@ -1,0 +1,140 @@
+/* Section One */ 
+@font-face {
+    src: url(/Fonts/hk-grotesk.regular.ttf);
+    font-family:"myFirstFont";  /*Font used for the body */
+
+}
+
+body{
+    font-family: "myFirstFont";
+    background-color: #FDF9F1 ;
+   
+}
+
+.GradientBackground_Container {
+    background: linear-gradient(#FDF9F1,#FDF9F1,#FDF9F1,#FFFEFD);
+    height: 760px;
+}
+
+/*Navigation*/
+ul{
+    font-weight:bolder; 
+    font-weight:500px;
+    text-align:left;
+    font-size:19px;
+}
+
+li{
+    display: inline; 
+    gap: 450px;
+    padding: 24px 26px;
+
+}
+
+li:hover{
+    color:#303178;
+}
+
+a{
+    text-decoration: none;
+    color: #000000; 
+}
+
+a:hover{
+    color:#303178;
+}
+
+.button1{
+    color: #303178; 
+    border-color: #303178; 
+    border-width: 1px;
+    background-color: #FDF9F1;
+    text-align: center;
+    font-family: "myFirstFont";
+    font-weight: 900;
+    float: right; 
+    padding: 24px 26px; 
+    margin-top: 0px;
+    margin-left: 8px;
+    border-radius: 8px;
+
+}
+.button2{
+    background-color: #303178;
+    color: white;
+    border: none; 
+    text-align: center;
+    font-family: "myFirstFont";
+    font-weight: 900;
+    float: right; 
+    padding: 24px 26px; 
+    margin-top: 0px;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+
+.button2:hover{
+    background-color: #122032;
+}
+.button1:hover{
+    background-color: white;
+}
+.SectionOne_h1{
+    color: #122032; 
+    position: relative; 
+    margin-top: 230px;
+    margin-left: 150px;
+    margin-bottom: 0%;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 50px;
+}
+.SectionOne_p{
+    color: #122032; 
+    position: relative; 
+    margin-left: 150px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.LogoImage{
+    max-height:100px; 
+    max-width: 250px;
+    position: relative; 
+    top: 15px; 
+    left: 0px; 
+}
+
+.DownwardArrow{
+    max-height: 30px;
+    max-width: 30px;
+    position: relative; 
+    top: 7px; 
+}
+
+.Image1{
+    float: right; 
+    max-height: 550px; 
+    max-width: 558px;
+    position: relative; 
+    bottom: 420px; 
+    right: 50px; 
+}
+
+.FixedIconImage{
+    max-height: 65px; 
+    max-width: 55px; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px grey;
+    position: fixed;
+    z-index: 1;
+}
+
+.FixedIcon{
+    padding-left: 1255px;
+    padding-top: 25px;
+    position: relative;
+}  
+
+
