@@ -138,3 +138,69 @@ a:hover{
 }  
 
 
+/**************************************************************************************************************/
+
+/* Section Two */ 
+
+.WhiteBackground_Container{
+    background-color: #FFFFFF;
+}
+
+.TransitionImage{
+    max-height: 780px;
+    max-width: 780px;
+    position: relative; 
+    top: 60px;
+    /* bottom: 465px;  */
+}
+
+.PhoneImage{ 
+    max-height: 700px;
+    max-width: 700px;
+    position: relative; 
+    top: 120px; 
+    left: 90px; 
+}
+
+.SectionTwo_h1{
+    color: #122032; 
+    position: relative; 
+    top: 0%; 
+    left: 625px;
+    bottom: 390px;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 50px;
+
+}
+
+.SectionTwo_p{
+    color: #122032; 
+    position: relative; 
+    top: 0%; 
+    left: 625px;
+    bottom: 390px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+} 
+
+.AppStoreImage{
+    max-height: 300px;
+    max-width: 300px;
+    position: relative; 
+    right: 510px; 
+    bottom:400px; 
+    left: 620px;  
+
+}
+
+.GoogleStoreImage{
+    max-height: 300px;
+    max-width: 300px; 
+    position: relative; 
+    right: 510px; 
+    bottom: 400px;
+    left: 620px;  
+}
+
