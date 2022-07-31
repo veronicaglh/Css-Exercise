@@ -401,3 +401,67 @@ a:hover{
     left: 500px;
     bottom: 130px; 
 }
+
+/********************************************************************************************************************/
+
+/* Section Seven*/ 
+
+.FooterBackgroundColor {
+    background: #F9FAFC;
+}
+
+.LogoImageFooter{
+    max-height: 250px;
+    max-width: 250px;
+    position: relative;
+    left: 65px;
+    top: 50px; 
+}
+
+/*The footer has been done using the grid layout of css*/ 
+/*Where each element in the original footer will be an element in the current grid matrix*/
+
+.GridContainer{
+    display:grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    position: relative;
+    left: 65px;
+    top:70px; 
+}
+
+.GridContainer img {
+    max-height:150px;
+    max-width: 150px;
+    padding:4px; 
+}
+
+.GridContainer h3{
+    font-weight: 600;
+}
+
+.GridContainer h4{
+    font-weight: 550;
+}
+
+.GridContainer h4:hover{
+    color:  #4b50f5;
+    text-decoration: underline;
+}
+
+.FinalFooter-Element{
+    color: #3A3C3E;
+    font-weight: 600;
+    float:right;
+    position:relative; 
+    top:75px;
+    right:150px; 
+}
+
+.AicpaLogo{
+    max-height: 91px;
+    max-width: 91px;
+    position: relative;
+    left: 68px;
+    top:40px; 
+}
