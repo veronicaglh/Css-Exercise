@@ -347,3 +347,57 @@ a:hover{
     margin-top: 0px;
     padding: 39px;
 }
+
+/*******************************************************************************************************************/
+
+/* Section Six*/ 
+
+.WhiteBackground2_Container{
+    background-color: #FFFFFF;
+}
+
+.SectionSix_p1{
+    color:#303178; 
+    position: relative;
+    top: 260px; 
+    left:100px; 
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.SectionSix_h1{
+    color: #122032;
+    font-weight: 900;
+    position:relative; 
+    top: 250px; 
+    left:100px
+}
+
+.SectionSix_p{
+    color: #122032;
+    position:relative; 
+    font-size:20px; 
+    top: 250px; 
+    left:100px
+}
+
+.SectionSix_button{
+    background-color: #4D50A2;
+    color:  #FFFFFF;
+    border: none; 
+    padding: 24px 30px; 
+    border-radius: 8px; 
+    font-size: 15px;
+    font-weight: bold; 
+    position: relative; 
+    left: 100px;
+    bottom:290px; 
+}
+
+.DoctorImage{
+    max-height: 575px;
+    max-width: 575x;
+    position: relative; 
+    left: 500px;
+    bottom: 130px; 
+}
