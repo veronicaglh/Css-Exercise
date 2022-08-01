@@ -1,6 +1,6 @@
 /* Section One */ 
 @font-face {
-    src: url(/Fonts/hk-grotesk.regular.ttf);
+    src: url(./Fonts/hk-grotesk.regular.ttf);
     font-family:"myFirstFont";  /*Font used for the body */
 
 }
