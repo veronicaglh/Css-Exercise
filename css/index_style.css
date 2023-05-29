@@ -1,6 +1,6 @@
 /* Section One */ 
 @font-face {
-    src: url(/css-exercise/Fonts/hk-grotesk.regular.ttf);
+    src: url(../fonts/hk-grotesk.regular.ttf);
     font-family:"myFirstFont";  /*Font used for the body */
 
 }
@@ -116,7 +116,7 @@ a:hover{
 .Image1{
     float: right; 
     max-height: 550px; 
-    max-width: 558px;
+    max-width: 600px;
     position: relative; 
     bottom: 420px; 
     right: 50px; 
